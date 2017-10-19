@@ -7,6 +7,16 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 20px;
+}
+
+#banner .row {
+	text-align: center;
+}
+
+#banner .row p {
+	color: #fff;
+	font-size: 2em;
 }
 
 .btn-danger {
@@ -15,6 +25,18 @@
 	padding: 10px;
 }
 
-#fastfood {
-	
+#fast-food {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px;
+}
+
+#img{
+	border: 10px solid #fff;
+	box-shadow: 5px 5px 5px 5px #888888;
+}
+
+#img img{
+	width: 100%;
 }
