@@ -40,7 +40,7 @@
 
 #img{
 	border: 10px solid #fff;
-	box-shadow: 5px 5px 5px 5px #888888;
+	box-shadow: 2px 2px 2px 2px #888888;
 }
 
 #img img{
@@ -66,7 +66,7 @@
 
 #drinks-img{
 	border: 10px solid #fff;
-	box-shadow: 5px 5px 5px 5px #888888;
+	box-shadow: 2px 2px 2px 2px #888888;
 }
 
 #foodbg {
@@ -74,5 +74,29 @@
 	width: 100%;
 	background-image: url(../img/backgrounds/foodsBg.jpg);
 	margin-bottom: 40px;
+	background-attachment: fixed;
 }
 
+#customers {
+	box-shadow: 1px 1px 1px 1px #888888;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+
+#customers h3 {
+	color: #F15A29;
+}
+
+#customers ul {
+	list-style-type: none;	
+}
+
+#customers ul li{
+	display: inline-block;	
+	margin-left: 20px;
+}
