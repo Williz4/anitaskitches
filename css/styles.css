@@ -8,6 +8,7 @@
 	background-image: url(../img/backgrounds/landing.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -99,4 +100,9 @@
 #customers ul li{
 	display: inline-block;	
 	margin-left: 20px;
+}
+
+#customers ul li span {
+	color: #F15A29;
+	font-size: 1.4em;
 }
