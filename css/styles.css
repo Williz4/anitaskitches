@@ -119,7 +119,13 @@
 	height: 301px;
 	background-image: url(../img/backgrounds/subscribe.jpg);
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+}
+
+#subscribe h3 {
+	color: #fff;
 }
 
 #subscribe .btn-danger {
@@ -134,8 +140,17 @@
 	justify-content: center;
 }
 
-#subscirbe form input[type=email] {
-	margin-left: 20px;
+form input[type=email] {
+	width: 200px;
+	padding: 10px;
+	margin-right: 20px;
+	color: black;
+	border: none;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+form input[type=submit] {
+	width: 150px;
 }
 
 footer {
@@ -163,10 +178,11 @@ footer #social {
 }
 
 #social a {
- 	margin-left: 10px;
+ 	margin-left: 20px;
  	margin-bottom: 30px;
 }
 #social a img {
-	background-color: #F15A29;
+	height: 39px;
+	width: 39px;
 }
 
