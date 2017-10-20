@@ -76,6 +76,7 @@
 	background-image: url(../img/backgrounds/foodsBg.jpg);
 	margin-bottom: 40px;
 	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 #customers {
@@ -87,8 +88,7 @@
 	margin-bottom: 40px;
 	padding: 20px;
 }
-
-
+  
 #customers h3 {
 	color: #F15A29;
 }
@@ -106,3 +106,28 @@
 	color: #F15A29;
 	font-size: 1.4em;
 }
+
+#subscribe {
+	width: 100%;
+	height: 301px;
+	background-image: url(../img/backgrounds/subscribe.jpg);
+	display: flex;
+	justify-content: center;
+}
+
+#subscribe .btn-danger {
+	background-color: red;
+	color: #fff;
+}
+
+#subscribe form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+#subscirbe form input[type=email] {
+	margin-left: 20px;
+}
+
