@@ -19,7 +19,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 40px;
 }
 
 #banner .row {
@@ -29,6 +28,67 @@
 #banner .row p {
 	color: #fff;
 	font-size: 2em;
+}
+
+#hh, #pt {
+	height: 105px;
+	text-align: center;
+}
+
+#hh > a {
+	line-height: 105px;
+	color: black;
+	font-size: 1.3em;
+}
+
+#pt {
+	background-color: #F15A29;
+}
+
+#pt > a {
+	line-height: 105px;
+	color: #fff;
+	font-size: 1.3em;7
+}
+
+
+#breakfast {
+	background-image: url(../img/foodtop/breakfast.jpg);
+	height: 210px;
+	text-align: center;
+}
+
+#lunch {
+	background-image: url(../img/foodtop/lunch.jpg);
+	height: 210px;
+	text-align: center;
+}
+
+#dinner {
+	background-image: url(../img/foodtop/dinner.jpg);
+	height: 210px;
+	text-align: center;
+}
+
+#breakfast p {
+	line-height: 210px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+#lunch p {
+	line-height: 210px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+#dinner p {
+	line-height: 210px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 600;
 }
 
 .btn-danger {
@@ -44,6 +104,7 @@
 	margin-left: auto;
 	padding: 40px;
 	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 #img{
@@ -84,6 +145,46 @@
 	margin-bottom: 40px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	padding: 100px;
+}
+
+.panel-heading ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	text-align: center;
+}
+
+.panel-heading ul li {
+	width: 25%;
+	color: #F15A29;
+	font-size: 1.3em;
+}
+
+.panel-body ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.panel-body ul li {
+	margin-right: 10px;
+}
+
+.panel-body ul li span {
+	color: #F15A29;
+	font-size: 1.3em;
+}
+
+.panel-body ul li figure {
+	text-align: center;
+}
+
+.panel-body ul li figure figcaption{
+	color: #F15A29;
+	font-size: 1.2em;
 }
 
 #customers {
@@ -92,7 +193,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	padding: 50px;
 }
   
@@ -185,4 +286,3 @@ footer #social {
 	height: 39px;
 	width: 39px;
 }
-

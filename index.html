@@ -4,11 +4,15 @@
 	<head>
 
 		<title>Anita's Kitchen</title>
+		<link rel="icon" href="img/logoBig.png">
 		<!-- Minified CSS -->
  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
  		<link rel="stylesheet" href="css/styles.css">
 
  		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+ 		<!--Animate.css-->
+ 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
 
  		<meta charset="UTF-8">
   	<meta name="description" content="#">
@@ -25,13 +29,47 @@
 
 			<div class="row"> 
 
-				<img src="img/logoBig.png"> 
+				<img src="img/logoBig.png" class="wow rubberBand data-wow-delay="500ms" data-wow-duration="1.5s"> 
 
 				<p>We Provide The Best Food <br> At The <strong>Right Price</strong></p>
 
 			</div>
 
 		</div>
+
+		<article class="container-fluid" id="bld">
+
+			<div class="row">
+
+				<div class="col-md-3">
+					
+					<div class="row" id="hh"> <a href="#" data-toggle="modal" data-target="#1">Happy Hour</a> </div>
+					<div class="row" id="pt"> <a href="#" data-toggle="modal" data-target="#1">Party Time</a> </div>
+
+
+				</div>
+
+				<div class="col-md-3" id="breakfast">
+				
+					<p>Breakfast</p>
+
+				</div>
+
+				<div class="col-md-3" id="lunch">
+
+					<p>Lunch</p>
+
+				</div>
+
+				<div class="col-md-3" id="dinner">
+
+				 <p>Dinner</p>
+
+				</div>
+
+			</div>
+
+		</article>
 
 		<article class="container-fluid" id="fast-food">
 			
@@ -47,7 +85,7 @@
 					</div>
 
 
-					<div class="col-md-6">
+					<div class="col-md-6 wow fadeIn data-wow-delay="1000ms" data-wow-duration="2s">
 						
 						<hgroup>
 
@@ -76,7 +114,7 @@
 			
 			<div class="row">
 				
-					<div class="col-md-6">
+					<div class="col-md-6 wow fadeIn data-wow-delay="1000ms" data-wow-duration="2s">
 						
 						<hgroup>
 
@@ -116,7 +154,68 @@
 
 		<article id="foodbg">
 			
+			<div class="panel panel-default wow bounceIn data-wow-delay="1000ms" data-wow-duration="2s">
 
+			  <div class="panel-heading">
+			  	
+			  <ul>
+
+			  	<li>Fast Food</li>
+			  	<li>Drinks</li>
+			  	<li>Chicken</li>
+			  	<li>Rice</li>
+
+			  </ul>
+
+			  </div>
+
+			  <div class="panel-body">
+
+			  	<ul>
+
+			  		<li> <span class="glyphicon glyphicon-menu-left"></span> </li>
+			  		<li>
+			  			
+			  			<figure class="figure">
+					
+								<img src="img/fastfood/chickenBurger.jpg" class="figure-img img-fluid" alt="">
+								<figcaption class="figure-caption">
+									Chicken Burger
+								</figcaption>
+						
+							</figure>	
+
+			  		</li>
+
+			  		<li>
+			  			
+			  			<figure class="figure">
+					
+								<img src="img/fastfood/beefBurger.jpg" class="figure-img img-fluid" alt="">
+								<figcaption class="figure-caption"> Beef Burger </figcaption>
+						
+							</figure>
+
+			  		</li>
+
+			  		<li>
+			  			
+		  				<figure class="figure">
+					
+								<img src="img/fastfood/chickenPizza.jpg" class="figure-img img-fluid" alt="">
+								<figcaption class="figure-caption"> Chicken Pizza </figcaption>
+						
+							</figure
+
+			  		</li>
+
+			  		<li> <span class="glyphicon glyphicon-menu-right"></span> </li>
+
+			  	</ul>
+
+			  </div>
+
+			</div>
 
 		</article>
 
@@ -190,6 +289,10 @@
 
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!--Wow.js CDN-->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+		<script type="text/javascript"> new WOW().init(); </script>
 
 		<!-- Minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
